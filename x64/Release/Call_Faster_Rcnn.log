@@ -1,0 +1,24 @@
+﻿生成启动时间为 2019/3/14 13:16:43。
+     1>项目“E:\lab\Call_Faster_Rcnn\Call_Faster_Rcnn\Call_Faster_Rcnn.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\Dependency_Library\caffe\include /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt dataReader.cpp main.cpp trackUtils.cpp utils.cpp
+         dataReader.cpp
+         main.cpp
+     1>e:\lab\call_faster_rcnn\call_faster_rcnn\trackUtils.h(21): warning C4091: “typedef ”: 没有声明变量时忽略“TrkObject”的左侧
+     1>e:\lab\call_faster_rcnn\call_faster_rcnn\trackUtils.h(27): warning C4091: “typedef ”: 没有声明变量时忽略“ViewInfo”的左侧
+         trackUtils.cpp
+     1>e:\lab\call_faster_rcnn\call_faster_rcnn\trackUtils.h(21): warning C4091: “typedef ”: 没有声明变量时忽略“TrkObject”的左侧
+     1>e:\lab\call_faster_rcnn\call_faster_rcnn\trackUtils.h(27): warning C4091: “typedef ”: 没有声明变量时忽略“ViewInfo”的左侧
+         utils.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\lab\Call_Faster_Rcnn\x64\Release\Call_Faster_Rcnn.exe" /NOLOGO /LIBPATH:..\Dependency_Library\caffe\lib test_faster_rcnn.lib iconv.lib libxml2.lib opencv_core2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\lab\Call_Faster_Rcnn\x64\Release\Call_Faster_Rcnn.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\lab\Call_Faster_Rcnn\x64\Release\Call_Faster_Rcnn.lib" /MACHINE:X64 x64\Release\dataReader.obj
+         x64\Release\main.obj
+         x64\Release\trackUtils.obj
+         x64\Release\utils.obj
+         Call_Faster_Rcnn.vcxproj -> E:\lab\Call_Faster_Rcnn\x64\Release\Call_Faster_Rcnn.exe
+     1>已完成生成项目“E:\lab\Call_Faster_Rcnn\Call_Faster_Rcnn\Call_Faster_Rcnn.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.40

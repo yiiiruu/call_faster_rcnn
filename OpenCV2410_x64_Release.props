@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>..\Dependency_Library\opencv2.4.10\include;..\Dependency_Library\opencv2.4.10\include\opencv2;..\Dependency_Library\opencv2.4.10\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Dependency_Library\opencv2.4.10\lib\x64\v120\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_core2410.lib;opencv_highgui2410.lib;opencv_imgproc2410.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
